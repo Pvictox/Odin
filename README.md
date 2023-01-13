@@ -1,0 +1,2 @@
+# Repositório dedicado ao meu aprendizado de tecnologias Web
+<p> Agradecimentos ao <a href= "https://www.theodinproject.com/about">Odin Project</a> e ao <a href="https://devdocs.io">DevDocs</a> por estarem me auxiliando durante essa jornada.</p>
