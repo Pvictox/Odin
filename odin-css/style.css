@@ -1,0 +1,28 @@
+/*
+    Classes: .
+    Id's: #
+*/
+
+.primeiro-div{
+    color: red;
+    background-color: blue;
+}
+
+.primeiro-div.segundo{
+    text-align: center;
+}
+
+#paragrafo{
+    text-align: center;
+}
+
+/*
+    Modificando uma classe e ID que possuem modificações iguais
+*/
+#paragrafo,
+.primeiro-div.segundo{
+    background-color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+}
