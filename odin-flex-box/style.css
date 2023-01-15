@@ -1,0 +1,23 @@
+/*
+    flex-direction: Pode ser modificada para mudar o display da flexbox
+*/
+
+.div-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 5px solid aqua;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+    margin: 15px;
+}
+
+.home-div,
+.logout-div{
+    background-color: bisque;
+}
+
+.search-div{
+    background-color: salmon;
+}

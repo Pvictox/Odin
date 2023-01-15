@@ -26,3 +26,36 @@
     font-size: medium;
     color: black;
 }
+
+.flexDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexDiv button{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+    color: crimson;
+    margin: auto;
+    size: 50px;
+    font-size: 45px;
+    position: inherit;
+}
+
+.flexDiv button:hover{
+    background-color: rgba(255, 0, 0, 1);
+}
+.flexDiv p{
+    font-family: 'Times New Roman', Times, serif;
+    color: cyan;
+    text-align: center;
+    text-decoration: underline dotted;
+    font-size: 20px;
+}
+
+.flexDiv div{
+    background-color: blueviolet;
+    border: 15px solid brown;
+    height: 100px;
+}
