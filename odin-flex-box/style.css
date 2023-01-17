@@ -4,13 +4,22 @@
 
 .div-flex{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
     text-align: center;
     border: 5px solid aqua;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
     color: crimson;
     margin: 15px;
+}
+
+.div-flex > div{
+    flex: 2;
+}
+
+.div-flex>.search-div{
+    flex: initial;
 }
 
 .home-div,
