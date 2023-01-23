@@ -1,6 +1,4 @@
 /*
-    Task 1: Variáveis.
-*/ 
 let admin, 
     name;
 
@@ -10,9 +8,6 @@ admin = name
 
 //alert(admin)
 
-/*
-    Task 2: Números
-*/
 
 const myInt = 5,
     myFloat = 3.1415;
@@ -36,12 +31,47 @@ let intValue = Number(stringValue) + 4; //Acontece a conversão e a soma é real
 
 console.log("Conversão:" + intValue) ;
 
-/*
-    Assignement Odin
-*/ 
-
 let myVariable = 9999;
 
 mensage = `Concatenação: ${myVariable}`;
 
-console.log(mensage)
+console.log(mensage)*/
+
+
+// ============== FUNÇÕES =============== 
+
+/*
+let ask = (question, yes_function, no_function) => confirm(question) ? yes_function():no_function();    
+  
+ask(
+    "Do you agree?",
+    function() { alert("You agreed."); },
+    function() { alert("You canceled the execution."); }
+);*/
+
+let add7 = (number) => number+7;
+
+let valor = add7(4);
+console.log(valor);
+
+let multiply = (value1, value2) => value1*value2;
+
+valor = multiply(7,7);
+console.log(valor)
+
+let capitalize = (string_value) => {
+    let primeira_maiuscula = string_value[0].toUpperCase();
+    string_value = string_value.toLowerCase();
+    retorno_String = string_value.replace(string_value[0], primeira_maiuscula);
+    return retorno_String;
+}
+
+let frase = "pedro";
+
+console.log(capitalize(frase));
+
+let lastLetter = (frase_value) => frase_value[frase_value.length-1];
+
+palavra = "alcançar";
+
+console.log(lastLetter(palavra));
