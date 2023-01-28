@@ -29,3 +29,23 @@ pinkParagraph.textContent = "Me too";
 pinkDiv.appendChild(pinkParagraph)
 
 container.appendChild(pinkDiv);
+
+
+/* ================= Eventos ================ */
+// const button = document.querySelector("#btn");
+// button.onclick = () => alert("Hello world");
+
+// let alertFunction = () => alert("Alerta funcao");
+
+// const button2 = document.querySelector("#btn2");
+// button2.addEventListener('click', function(e){
+//     e.target.style.background = "blue";
+// });
+
+const buttons = document.querySelectorAll("button");
+
+buttons.forEach((button) =>{
+    button.addEventListener('click', ()=>{
+        alert(button.id);
+    })
+})
