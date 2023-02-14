@@ -24,6 +24,14 @@ let isEmpty = (object) =>{
     }
 }
 
+let sumSalary = (salaryObject) =>{
+    let sum = 0;
+    for (key in salaryObject){
+        sum+=salaryObject[key];
+    }
+    return sum;
+}
+
 let showObject = (object) =>{
     console.log(object);
     for (key in object){
@@ -44,7 +52,13 @@ delete userObject.name;
 showObject(userObject); 
 */
 
-newObject = createObject("name");
+salaryObject = {
+    "Maria": 100,
+    "Carlos": 150,
+    "João": 200,
+    "Laissa": 300
+}
 
-console.log(isEmpty(newObject));
+emptySalaryObject = {}
 
+console.log(sumSalary(emptySalaryObject));
