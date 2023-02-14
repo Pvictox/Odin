@@ -11,6 +11,18 @@ function createObject(){
     return object;
 }
 
+let isEmpty = (object) =>{
+    let numKeys = 0;
+    for (key in object){
+        numKeys+=1;
+    }
+    
+    if (numKeys ===0){
+        return true;
+    }else{
+        return false;
+    }
+}
 
 let showObject = (object) =>{
     console.log(object);
@@ -31,4 +43,8 @@ delete userObject.name;
 
 showObject(userObject); 
 */
+
+newObject = createObject("name");
+
+console.log(isEmpty(newObject));
 
