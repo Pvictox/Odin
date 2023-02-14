@@ -24,6 +24,19 @@ let isEmpty = (object) =>{
     }
 }
 
+let multiplyFunction = (object = undefined, factor) =>{
+    if (object !== undefined){
+        for (key in object){
+            if (typeof(object[key]) == 'number'){
+                console.log("entrou");
+                object[key] = object[key]*factor;
+            }
+        }
+        return object;
+    }
+    return object;
+}
+
 let sumSalary = (salaryObject) =>{
     let sum = 0;
     for (key in salaryObject){
@@ -56,9 +69,14 @@ salaryObject = {
     "Maria": 100,
     "Carlos": 150,
     "João": 200,
-    "Laissa": 300
+    "Laissa": 300,
+    "Payment": "Credit"
 }
 
 emptySalaryObject = {}
+//console.log(sumSalary(emptySalaryObject));
 
-console.log(sumSalary(emptySalaryObject));
+multiplyFunction(salaryObject, 2);
+showObject(salaryObject);
+
+console.log()
