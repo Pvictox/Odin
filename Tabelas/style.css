@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tabela{
+    margin: auto;
+    margin-top: 50vh;
+}
+
+#tabela, th, .data-table{
+    border: 2px solid black;
+
+}
+
+th{
+    background-color: rgba(114, 50, 50, 0.527);
+}
+
+.data-table{
+    text-align: center;
+    padding: 2px;
+}
+
+/* #div-table{
+    background-color: aqua;
+} */
