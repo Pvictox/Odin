@@ -26,7 +26,8 @@ elementDiv.appendChild(para2);
 elementDiv.appendChild(para3);*/
 
 //yearSplit é um número se tiver separado, senão é setado para FALSE.
-function Band(name, nationality, genre, NumMembers, yearFormed,
+
+/*function Band(name, nationality, genre, NumMembers, yearFormed,
     yearSplit=false, albums = []){
     this.name = name;
     this.nationality = nationality;
@@ -58,5 +59,7 @@ for (key in newBand["albums"]){
     bandInfo2.textContent += `Album Nome: ${newBand["albums"][key]["name"]} | Ano: ${newBand["albums"][key].releaseDate+" "}`;
 }
 
-elementDiv.appendChild(bandInfo2);
+elementDiv.appendChild(bandInfo2);*/
+
+
 
