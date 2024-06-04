@@ -22,3 +22,18 @@ main > div{
 #field_person{
     width: 30rem;
 }
+
+#contact_fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+#contact_fields > label{
+    margin-top: 0.75em;
+}
+
+input:focus{
+    border-color: #000;
+}
