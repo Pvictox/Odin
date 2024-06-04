@@ -18,3 +18,7 @@ main > div{
     position: absolute;
     bottom: 50px;
 }
+
+#field_person{
+    width: 30rem;
+}
