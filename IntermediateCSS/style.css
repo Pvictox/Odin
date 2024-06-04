@@ -1,3 +1,20 @@
-h2{
-    color: red;
+main > div{
+    width: 30px;
+    height: 30px;
+    margin-top: 1rem;
+    background-color: black;
+}
+
+.group1 + div{
+    border: 2px;
+    border-color: green;
+}
+
+.lista:nth-child(even){
+    color: blue;
+}
+
+.lista{
+    position: absolute;
+    bottom: 50px;
 }
